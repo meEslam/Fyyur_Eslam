@@ -19,7 +19,7 @@ import csv
 from datetime import date, datetime
 
 #----------------------------------------------------------------------------#
-# App Config and connection to local host postgreSQL database
+#   connection to local host postgreSQL database and App Config
 #----------------------------------------------------------------------------#
 
 app = Flask(__name__)
