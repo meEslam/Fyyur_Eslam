@@ -28,7 +28,6 @@ app.config.from_object('config')
 db = SQLAlchemy(app)
 migrate = Migrate(app,db)
 
-# An Association Model was created opposed to a Table to ensure that the "start_time" attribute can also be created
 # This table enables many-to-many relationships between VENUE and ARTIST classes
 class Shows(db.Model):
     __tablename__='shows'
